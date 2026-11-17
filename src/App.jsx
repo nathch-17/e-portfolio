@@ -11,7 +11,6 @@ import {
   Linkedin,
   FileText,
   Download,
-  Phone,
   MapPin,
   Car,
   GraduationCap,
@@ -435,12 +434,6 @@ export default function App() {
                   <p className="flex items-center gap-2">
                     <Car size={14} className="text-[#FF4D00]" />
                     <span>Permis B • Véhiculé</span>
-                  </p>
-                  <p className="flex items-center gap-2">
-                    <Phone size={14} className="text-[#FF4D00]" />
-                    <a href="tel:+33771006452" className="hover:text-[#FF4D00]">
-                      {PROFILE.phone}
-                    </a>
                   </p>
                 </div>
               </div>
@@ -964,7 +957,7 @@ export default function App() {
                 À la recherche d’un stage de 8 à 10 semaines dès le 5 avril 2027.
               </h3>
               <p className="text-sm text-neutral-500 font-mono">
-                {PROFILE.email} • {PROFILE.phone} • Caen & Avranches (Permis B)
+                {PROFILE.email} • Caen & Avranches (Permis B)
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-3">
